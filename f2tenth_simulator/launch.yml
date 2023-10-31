@@ -1,0 +1,7 @@
+launch:
+- node:
+    pkg: "turtlesim"
+    exec: "turtlesim_node"
+- node:
+    pkg: "f2tenth_simulator"
+    exec: "talker"
