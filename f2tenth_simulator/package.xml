@@ -3,8 +3,8 @@
 <package format="3">
   <name>f2tenth_simulator</name>
   <version>0.0.0</version>
-  <description>TODO: Package description</description>
-  <maintainer email="Naresh.Nayak@de.bosch.com">root</maintainer>
+  <description>This package publishes the data received from kuksa data-broker to ROS2 turtlesim topic "/turtle1/cmd_vel"</description>
+  <maintainer email="likhithsadahallithammegowda@gmail.com">root</maintainer>
   <license>TODO: License declaration</license>
 
   <exec_depend>rclpy</exec_depend>
