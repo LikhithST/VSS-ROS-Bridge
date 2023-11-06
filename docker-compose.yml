@@ -16,15 +16,14 @@ services:
     hostname: simulator
     environment:
       - width=1900
-      - height=1000
-      - x_coord=10
-      - y_coord=10
-      - angle=0
+      - height=1080
+      - x_coord=1
+      - y_coord=1
+      - angle=2
       - DISPLAY=${DISPLAY}
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
       - .:/workspace:cached
-    entrypoint: bash -c 'while true ;do wait ;done'
     networks:
       - ros2
 networks:
