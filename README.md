@@ -109,6 +109,12 @@ until finished
 - [KUKSA.val](https://github.com/eclipse/kuksa.val) - KUKSA Vehicle Abstraction Layer
 - [COVESA](https://covesa.github.io/vehicle_signal_specification/) - Connected Vehicle Systems Alliance
 - [ROS](https://wiki.ros.org/noetic/Installation/Ubuntu) - ROS Humble
+
+
+##  Block Diagram 
+
+<img src="./img/image.png" alt="Block Diagram"></a>
+
 <!-- - [VueJs](https://github.com/eclipse-velocitas) - Web Framework
 - [NodeJs](https://eclipse-leda.github.io/leda/docs/general-usage/sdv-introduction/) - Server Environment -->
 

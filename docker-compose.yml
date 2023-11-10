@@ -19,7 +19,7 @@ services:
       - height=1080
       - x_coord=1
       - y_coord=1
-      - angle=2
+      - angle=0
       - DISPLAY=${DISPLAY}
     volumes:
       - /tmp/.X11-unix:/tmp/.X11-unix
