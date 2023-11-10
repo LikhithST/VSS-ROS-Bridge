@@ -103,6 +103,7 @@ until finished
 
 - Clone this repository
 - from inside the folder, run `docker compose up`
+- To test the visualisation with turtlesim run `python3 provider.py -f output_1x.csv`
 
 ## ⛏️ Built With <a name = "tech_stack"></a>
 
