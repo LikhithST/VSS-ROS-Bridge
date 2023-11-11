@@ -37,7 +37,7 @@ def init_argparse() -> argparse.ArgumentParser:
     parser.add_argument(
         "-a",
         "--address",
-        default=environment.get("KUKSA_DATA_BROKER_ADDR", "127.0.0.1"),
+        default=environment.get("KUKSA_DATA_BROKER_ADDR", "192.168.17.78"),
         help="This indicates the address of the kuksa.val databroker to connect to."
              " The default value is 127.0.0.1",
     )
