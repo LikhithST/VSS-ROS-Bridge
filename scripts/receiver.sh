@@ -1,0 +1,1 @@
+gst-launch-1.0 udpsrc port=8999 ! "application/x-rtp, payload=127" ! rtph264depay ! avdec_h264 ! xvimagesink sync=false
