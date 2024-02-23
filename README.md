@@ -98,12 +98,30 @@ And repeat
 ```
 until finished
 ``` -->
-
 ## 🎈 Usage <a name="usage"></a>
 
 - Clone this repository
 - from inside the folder, run `docker compose up`
 - To test the visualisation with turtlesim run `python3 provider.py -f output_1x.csv`
+
+## 🎈 Kuksa.val Quick Start: <a href="https://github.com/eclipse/kuksa.val/blob/master/doc/quickstart.md" name="usage">Click Here!</a>
+
+Docker commands to run individual broker and client applications...
+ <table>
+ 
+  <tr>
+    <td><b>Data Broker : </b></td>
+    <td>docker run -it --rm --net=host ghcr.io/eclipse/kuksa.val/databroker:master --insecure</td>
+  </tr>
+  <tr>
+    <td><b>Data broker CLI :</b></td>
+    <td>docker run -it --rm --net=host ghcr.io/eclipse/kuksa.val/databroker-cli:master</td>
+  </tr>
+  <tr>
+    <td> <b>Kuksa-client CLI : </b></td>
+    <td>docker run -it --rm --net=host ghcr.io/eclipse-kuksa/kuksa-python-sdk/kuksa-client:main</td>
+  </tr>
+</table> 
 
 ## ⛏️ Built With <a name = "tech_stack"></a>
 
