@@ -15,8 +15,8 @@ services:
       context: .
     hostname: simulator
     environment:
-      - width=1900
-      - height=1080
+      - width=1200
+      - height=800
       - x_coord=1
       - y_coord=1
       - angle=0
