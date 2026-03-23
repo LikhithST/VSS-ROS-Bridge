@@ -20,9 +20,9 @@ flowchart LR
 ---
 
 ## Demo
-<video src="img/VSS-ROS.webm" controls width="800">
-  Your browser does not support the video tag.
-</video>
+
+
+![VSS-ROS Bridge Demo](./img/vss-ros.gif)
 ---
 
 
