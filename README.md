@@ -22,7 +22,7 @@ flowchart LR
 ## Demo
 
 
-![VSS-ROS Bridge Demo](./img/vss-ros.gif)
+![VSS-ROS Bridge Demo](./img/VSS-ROS.gif)
 ---
 
 
