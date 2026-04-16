@@ -14,15 +14,22 @@ flowchart LR
     B --> C[VSS-ROS Bridge]
     C --> D[ROS 2 Topics]
     D --> E[turtlesim]
-    D --> F[F1TENTH Simulator]
+    D --> F[FlexCAR]
 ```
+The VSS-ROS bridge can be easily intentegrated with simulation (turtlesim) or FlexCAR, the following demonstration section demonstrates VSS-ROS bridge being used between turtlesim and FlexCAR with no code changes. This enables safe and faster prototyping and testing of vehicular functions
+
 
 ---
 
-## Demo
+## Demonstration
 
-
+### Turtle Sim
 ![VSS-ROS Bridge Demo](./img/VSS-ROS.gif)
+
+### FlexCAR
+![VSS-ROS Bridge Demo](./img/VSS-to-ROS-flexcar.gif)
+
+
 ---
 
 
